@@ -5,6 +5,9 @@ import { Flezi } from './core/themes/flezi-preset';
 
 import { routes } from './app.routes';
 
+import { provideTranslateService } from '@ngx-translate/core';
+import { provideTranslateHttpLoader } from '@ngx-translate/http-loader';
+
 export const appConfig: ApplicationConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
@@ -16,7 +19,13 @@ export const appConfig: ApplicationConfig = {
           darkModeSelector: false
         }
       }
+    }),
+    provideTranslateService({
+      loader: provideTranslateHttpLoader({
+        prefix: './i18n/',
+        suffix: '.json'
+      }),
+      fallbackLang: 'en'
     })
-
   ]
 };

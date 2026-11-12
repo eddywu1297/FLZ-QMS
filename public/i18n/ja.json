@@ -1,0 +1,15 @@
+{
+  "login": {
+    "title": "FLZ-QMS にサインイン",
+    "subtitle": "品質管理システム",
+    "username": "ユーザー名",
+    "usernamePlaceholder": "ユーザー名を入力してください",
+    "password": "パスワード",
+    "passwordPlaceholder": "パスワードを入力してください",
+    "rememberMe": "ログイン状態を保持",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "submit": "サインイン",
+    "loading": "サインイン中...",
+    "error": "ユーザー名またはパスワードが正しくありません"
+  }
+}

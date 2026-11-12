@@ -1,0 +1,15 @@
+{
+  "login": {
+    "title": "Sign in to FLZ-QMS",
+    "subtitle": "Quality Management System",
+    "username": "Username",
+    "usernamePlaceholder": "Enter your username",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "submit": "Sign in",
+    "loading": "Signing in...",
+    "error": "Invalid username or password"
+  }
+}
